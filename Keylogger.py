@@ -2,14 +2,14 @@ from pynput import keyboard
 import os
 
 def clear():
-    # für Windows
+
     if os.name == 'nt':
         _ = os.system('cls')
-    # für Mac und Linux (hier ist os.name 'posix')
+
     else:
         _ = os.system('clear')
 
-# Aufruf der Clear-Funktion
+
 clear()
 print ("")
 print ("")
